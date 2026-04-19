@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 'Az CLI login'
-        uses: azure/login@v1
+        uses: azure/login@v3
         with:
           # Azure login can use either Service Principal or OIDC authentication:
           # 1. Service Principal: Uses client ID, tenant ID, client secret/certificate
